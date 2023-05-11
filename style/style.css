@@ -1,3 +1,95 @@
+body {
+  font-family: "Noto Sans", arial;
+  margin: 0;
+  padding: 0;
+}
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+  background-color: rgb(65, 67, 64);
+}
+.nav ul {
+  margin: 6px 0;
+  padding-left: 0;
+}
+.nav li, .nav a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.nav a {
+  padding-left: 24px;
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 10px 10px rgba(221, 221, 221, 0.5);
+}
+header button:hover {
+  cursor: pointer;
+}
+header button {
+  position: relative;
+  border: none;
+  background: none;
+  color: rgb(103, 105, 102);
+  font-size: 13px;
+  font-weight: 500;
+}
+header button p {
+  margin: auto;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+.container_fluid {
+  width: 100%;
+}
+
+.display_flex {
+  display: flex;
+}
+.display_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-right: 24px;
+}
+
+.basket_span {
+  position: absolute;
+  background-color: rgb(23, 155, 61);
+  border-radius: 50%;
+  padding: 1px 4px;
+  color: #fff;
+  font-size: 8px;
+  right: 18px;
+  top: 0;
+}
+.basket_button {
+  margin-left: 24px;
+}
+
+.search button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
