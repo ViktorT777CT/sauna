@@ -114,7 +114,7 @@ nav ul li {
   justify-content: center;
 }
 .slider_icon a {
-  margin: 12px;
+  margin: 0 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,9 +126,8 @@ nav ul li {
   height: 56px;
 }
 .slider_padding {
+  height: 305px;
   padding: 48px;
-  display: flex;
-  justify-content: space-between;
 }
 .slider_bg {
   position: absolute;
@@ -145,8 +144,14 @@ nav ul li {
   width: 100%;
   position: relative;
   z-index: 10;
+}
+.slider_content-bottom {
+  position: absolute;
+  bottom: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: end;
+  width: 93%;
 }
 .slider_content-social {
   display: flex;
@@ -161,7 +166,6 @@ nav ul li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 60%;
 }
 .slider_content-left button {
   background-color: rgb(23, 155, 61);
@@ -180,6 +184,7 @@ nav ul li {
   letter-spacing: 0em;
   color: #fff;
   margin: 0;
+  max-width: 60%;
 }
 .slider_content-left h4 {
   font-size: 20px;
