@@ -193,5 +193,86 @@ nav ul
         backface-visibility: hidden
       & span
         color: rgba(103, 105, 102, 0)
+@media screen and (max-width: 1200px)
+  .slider
+    height: 264px
+    &_padding
+      padding: 24px
+      height: 217px
+    &_bg img
+      height: 264px
+    &_content
+      &-bottom
+        bottom: 24px
+        width: 96%
+      &-left
+        & h1
+          font-size: 28px
+          font-weight: 600
+          line-height: 34px
+        & h4
+          font-size: 16px
+          font-weight: 500
+          line-height: 24px
+          margin: 16px 0
+  .owlCarousel .owl-dots
+    bottom: 24px
+
+@media screen and (max-width: 992px)
+  .slider
+    height: 296px
+    &_icon a
+      margin: 0 0 0 16px
+    &_padding
+      padding: 24px
+      height: 248px
+    &_bg img
+      height: 296px
+    &_content
+      &-bottom
+        bottom: 18px
+        width: 93%
+        align-items: center
+      &-left
+        & button
+          height: 36px
+          width: 139px
+          font-size: 12px
+          line-height: 20px
+    &_content-social p
+      display: none
+  .owlCarousel .owl-dots
+    bottom: 16px
+  header
+    padding: 12px 0
+  .search, .nav
+    display: none
+  .burger
+    display: block
+    & img
+      padding-right: 16px
+@media screen and (max-width: 774px)
+  .slider
+    &_content
+      &-left
+        & h1
+          max-width: 80%
+  .container
+    padding: 0 24px
+@media screen and (max-width: 576px)
+  .container
+    padding: 0 16px
+  .tell_button p, .basket_button p
+    display: none
+  .slider
+    &_content
+      &-bottom
+        bottom: 42px
+        width: 89%
+      &-left
+        & h1
+          max-width: 100%
+          font-size: 20px
+          line-height: 24px
 
 
