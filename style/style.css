@@ -18,6 +18,10 @@ button {
   cursor: pointer;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 .nav {
   background-color: rgb(65, 67, 64);
 }
@@ -63,16 +67,22 @@ header button p {
 .container_fluid {
   width: 100%;
 }
+.container_margin {
+  padding-top: 24px;
+}
 
 .display_flex {
   display: flex;
+}
+.display_flex-around {
+  display: flex;
+  justify-content: space-around;
 }
 .display_between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 nav ul {
   display: flex;
 }
@@ -244,6 +254,38 @@ nav ul li {
 }
 .owlCarousel .owl-nav button span {
   color: rgba(103, 105, 102, 0);
+}
+
+.catalog {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  height: 258px;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 16px 0 rgba(31, 39, 33, 0.16);
+}
+.catalog a:hover h2, .catalog a:hover p {
+  color: rgb(23, 155, 61);
+}
+.catalog h2 {
+  color: rgb(39, 40, 39);
+  margin: 0 0 8px 0;
+}
+.catalog p {
+  color: rgb(65, 67, 64);
+  margin: 8px 12px 8px 0;
+}
+.catalog .img_card {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.catalog_gap {
+  gap: 24px;
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

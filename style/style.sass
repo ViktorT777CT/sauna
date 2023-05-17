@@ -11,6 +11,8 @@ button
   background-color: rgba(0, 0, 0, 0)
   border: none
   cursor: pointer
+h2
+  font-size: 28px
 .nav
   background-color: rgb(65, 67, 64)
   & ul
@@ -45,13 +47,19 @@ header
   padding: 0 60px
   &_fluid
     width: 100%
+  &_margin
+    padding-top: 24px
 .display
   &_flex
     display: flex
+    &-around
+      display: flex
+      justify-content: space-around
   &_between
     display: flex
     justify-content: space-between
     align-items: center
+    &-aroun
 nav ul
   display: flex
   & li
@@ -193,5 +201,31 @@ nav ul
         backface-visibility: hidden
       & span
         color: rgba(103, 105, 102, 0)
+
+.catalog
+  width: 50%
+  position: relative
+  overflow: hidden
+  height: 258px
+  border-radius: 12px
+  padding: 32px
+  box-shadow: 0 4px 16px 0 rgba(31, 39, 33, 0.16)
+  & a:hover h2, a:hover p
+    color: rgba(23, 155, 61, 1)
+  & h2
+    color: rgba(39, 40, 39, 1)
+    margin: 0 0 8px 0
+  & p
+    color: rgba(65, 67, 64, 1)
+    margin: 8px 12px  8px 0
+  & .img_card
+    width: 100%
+    position: absolute
+    z-index: -1
+    bottom: 0
+    right: 0
+  &_gap
+    gap: 24px
+    margin-bottom: 24px
 
 
